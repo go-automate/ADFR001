@@ -21,26 +21,11 @@ The table below describes the types of testing that must be performed during the
 
 | Name               | Manual / Automated | Description |
 |--------------------|--------------------|-------------|
-| Unit Testing
-| Automated
-| Tests for individual units of code. Any interfaces or dependences are mocked.
-|
-| Functional Testing
-| Automated
-| Tests to ensure that the logic coded into the application fulfils the user requirements. These are currently called 'Integration Tests' or 'Deep Tests'.
-|
-| E2E Testing
-| Automated
-| Tests to exercise the entire application stack. Typically run from the application UI and mimic user interaction.
-|
-| Visual Testing
-| Automated
-| Tests to ensure that the visual elements of the application are correct. This is not tested by E2E or functional tests.
-|
-| Exploratory Testing
-| Manual
-| Tests to ensure that unexpected user activity does not result in unhandled application failure.
-|
+| Unit Testing | Automated | Tests for individual units of code. Any interfaces or dependences are mocked.|
+| Functional Testing | Automated | Tests to ensure that the logic coded into the application fulfils the user requirements. These are currently called 'Integration Tests' or 'Deep Tests'.|
+| E2E Testing | Automated | Tests to exercise the entire application stack. Typically run from the application UI and mimic user interaction. |
+| Visual Testing | Automated | Tests to ensure that the visual elements of the application are correct. This is not tested by E2E or functional tests. |
+| Exploratory Testing | Manual | Tests to ensure that unexpected user activity does not result in unhandled application failure. |
 
 Each of these Test Types has a dedicated section within this document below.
 
