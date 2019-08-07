@@ -20,7 +20,7 @@ Please note: the BDD process below doesn't include the CI or Code Control qualit
 | BDD06  | Scenarios are implemented in the code               | Developers           | Functional Tests covering all scenarios are created and test report is green. Unit Tests have been created and test report is green. |
 | BDD07  | Any E2E test scenarios are implemented              | Developer / Tester   | E2E tests. E2E test report is green.                                                                                                 |
 
-### **Functional Testing**
+## **Functional Testing**
 
 Functional Testing will be performed to ensure that all user requirements have been met by the functionality of the system.
 
@@ -31,7 +31,7 @@ Functional Testing will be performed to ensure that all user requirements have b
 | Karma | Test Runner |     |
 | TBC   |             |     |
 
-### **E2E Tests**
+## **E2E Tests**
 
 End to end tests will be identified during the Technical Review (step BDD05 of the BDD process) by the following criteria:
 
