@@ -31,13 +31,20 @@ Each of these Test Types has a dedicated section within this document below.
 
 The table below describes how these types of testing integrate with a typical Agile SDLC:
 
-[Test Mapping to SDLC](https://www.notion.so/17135a142d6d4f87b0477733f3c3c6fc)
+| SDLC Phase            | Test Process                                                      |
+|-----------------------|-------------------------------------------------------------------|
+| Sprint Planning       | BDD Scenarios created                                             |
+| During the Sprint     | Unit Tests, Functional Tests and E2E Tests completed (Automated). |
+| Outside of the Sprint | Exploratory Testing performed (Manual)                            |
 
 ## **Continuous Integration**
 
 Describe here when the different automated regression tests are run in the CI pipeline. E.g.
 
-[Continuous Integration](https://www.notion.so/b7911703e0d2401284ea3fa3a9851613)
+| Action                  | Regression Testing Performed                                                            |
+|-------------------------|-----------------------------------------------------------------------------------------|
+| Push to Branch          | All Functional Tests and Visual Tests are run for that Feature.                         |
+| Merge to Release Branch | All Functional Tests run for all Features, all E2E tests run, all Visual Tests are run. |
 
 ## **Defect Management**
 
