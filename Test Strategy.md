@@ -7,6 +7,23 @@ The aim of this document is to describe a simple and robust Test Strategy for pr
 3. The technical stack used for Test Frameworks
 4. The level of quality assurance within the software delivery lifecycle (SDLC)
 
+## Testing Aim
+
+Unit Testing
+To monitor the code for breaking changes.
+
+Functional Testing
+To ensure the application functionality meets the user requirements
+
+E2E Testing
+To ensure the tech stack has been built correctly
+
+Visual / Snapshot testing
+To ensure that the application meets the UX / Accessibility requirements.
+
+Exploratory Testing
+To ensure the application handles unusual behaviour or failures gracefully.
+
 ## **Version Control**
 
 This is a living document that will evolve over the lifecycle of any project. It must be contained within the project repository and version controlled accordingly (using Git). The first draft of this document must be agreed before any project commences.
