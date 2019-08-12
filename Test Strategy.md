@@ -64,3 +64,7 @@ Describe here when the different automated regression tests are run in the CI pi
 ## **Defect Management**
 
 With the exception of Exploratory Testing, all issues with the code identified by failing tests will be corrected within the Sprint and not documented as defects.
+
+## **Stubbing vs Contracts**
+
+Where possible, contracts should be used rather than stubs for any API accessed over the network.
